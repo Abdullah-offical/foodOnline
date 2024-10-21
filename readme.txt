@@ -4,4 +4,5 @@
 5 add git ignore file to root directory and setup Github       https://www.toptal.com/developers/gitignore
 
 
-6 push project to github repository 
+6 push project to github repository 
+7 setup django template   and create first template hello world
