@@ -16,4 +16,10 @@
 
 Collect static is used for prodection website not for local computer
 
-12
+12 configuration Postgres data base 
+		Postgres data base is for large data base for use mostly compines but sqlite 3 is not good good so that's why I use.
+		1 crete database 
+		2 configure setting file 
+		3 run this command   ->  pip install psycopg2    
+		4 then migrate command run 
+		5 create super user again for new database
