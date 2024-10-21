@@ -7,5 +7,8 @@
 6 push project to github repository 
 7 setup django template   and create first template hello world
 
-8 Run migrate command and then Create supper user 
+8 Run migrate command and then Create supper user
+
+9 Homepage templete load
+10 Static files config
 
