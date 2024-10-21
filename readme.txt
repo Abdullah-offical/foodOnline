@@ -12,3 +12,8 @@
 9 Homepage templete load
 10 Static files config
 
+11 Run collect static command to copy all the static file in root directory   --> python manage.py collect static
+
+Collect static is used for prodection website not for local computer
+
+12
