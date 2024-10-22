@@ -23,3 +23,7 @@ Collect static is used for prodection website not for local computer
 		3 run this command   ->  pip install psycopg2    
 		4 then migrate command run 
 		5 create super user again for new database
+
+13 Hide sensitive information and push code to getHub
+		1 install python decuple 
+		2 config the decouple
