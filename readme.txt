@@ -39,3 +39,5 @@ Collect static is used for prodection website not for local computer
 16 set admin side other filter
 
 17 set user profile
+
+18 media file config
