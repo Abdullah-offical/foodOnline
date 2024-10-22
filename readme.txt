@@ -41,3 +41,6 @@ Collect static is used for prodection website not for local computer
 17 set user profile
 
 18 media file config
+
+19 Automatic create user profile to create or register new user, create in userPfrofile model
+		use Django signals.   --> learn Django signals for me I'm use this first time
