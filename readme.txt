@@ -47,3 +47,5 @@ Collect static is used for prodection website not for local computer
 
 
 20 setup user registration path
+
+21 templetes inheritance
