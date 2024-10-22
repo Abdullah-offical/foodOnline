@@ -27,3 +27,10 @@ Collect static is used for prodection website not for local computer
 13 Hide sensitive information and push code to getHub
 		1 install python decuple 
 		2 config the decouple
+
+14 Create custom user model 
+		1 create accounts app
+		2 configure model and settings
+		3 delete old database and create new database with same name
+		4 run migrate commands
+		5 Create supper user again new
