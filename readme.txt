@@ -37,3 +37,5 @@ Collect static is used for prodection website not for local computer
 
 15 password is editable change to readonly mode
 16 set admin side other filter
+
+17 set user profile
