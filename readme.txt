@@ -34,3 +34,6 @@ Collect static is used for prodection website not for local computer
 		3 delete old database and create new database with same name
 		4 run migrate commands
 		5 Create supper user again new
+
+15 password is editable change to readonly mode
+16 set admin side other filter
