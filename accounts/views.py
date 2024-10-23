@@ -33,6 +33,8 @@ def registerUser(request):
             user.save()
             
             return redirect('registerUser')
+        else:
+            print(form.errors)
     else:
         form = UserForm()
     context = {
