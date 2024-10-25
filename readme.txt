@@ -51,3 +51,9 @@ Collect static is used for prodection website not for local computer
 21 templetes inheritance
 
 22 use Django form to registration implement, User or Customer save there data of user to database.
+
+23 Django messages use
+
+
+24 Resturent registration or vendor registration 
+
