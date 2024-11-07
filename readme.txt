@@ -62,3 +62,5 @@ Collect static is used for prodection website not for local computer
 
 25 registration complete for vendor 
 
+26 Display vendor admin profile 
+
