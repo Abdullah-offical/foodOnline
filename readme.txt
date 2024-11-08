@@ -65,5 +65,6 @@ Collect static is used for prodection website not for local computer
 26 Display vendor admin profile 
 
 27 Login logout and dashboard functionality 
+		setup routes if user is already  logged in then it show only dashboard page and login button not go to logout side.
 
 

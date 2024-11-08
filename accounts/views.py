@@ -6,7 +6,10 @@ from vendor.forms import VendorForm
 from vendor.models import Vendor
 
 def registerUser(request):
-    if request.method == 'POST':
+    if request.user.is_authenticated:
+        messages.warning(request, "your already log in")
+        return redirect('dashboard')
+    elif request.method == 'POST':
         
         form = UserForm(request.POST)
         if form.is_valid():
@@ -47,7 +50,10 @@ def registerUser(request):
 
 
 def registerVendor(request):
-    if request.method == 'POST':
+    if request.user.is_authenticated:
+        messages.warning(request, "your already log in")
+        return redirect('dashboard')
+    elif request.method == 'POST':
         # srore data and create a new User
         v_form = VendorForm(request.POST, request.FILES)
         form = UserForm(request.POST)
@@ -90,7 +96,10 @@ def registerVendor(request):
 
 
 def login(request):
-    if request.method == 'POST':
+    if request.user.is_authenticated:
+        messages.warning(request, "Your already log in")
+        return redirect('dashboard')
+    elif request.method == 'POST':
         email = request.POST['email']
         password = request.POST['password']
 
