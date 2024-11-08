@@ -64,3 +64,6 @@ Collect static is used for prodection website not for local computer
 
 26 Display vendor admin profile 
 
+27 Login logout and dashboard functionality 
+
+
