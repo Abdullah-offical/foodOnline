@@ -73,4 +73,6 @@ Collect static is used for prodection website not for local computer
 	send email for activate account user and vendor
 	active account by email 
 
+30 forgot Password 
+
 
