@@ -69,4 +69,8 @@ Collect static is used for prodection website not for local computer
 
 28 customer and vendor dashboard make function to redirect 
 
+29 Configure email 
+	send email for activate account user and vendor
+	active account by email 
+
 
