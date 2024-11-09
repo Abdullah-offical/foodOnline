@@ -9,6 +9,9 @@ from .utils import detectUser, send_verification_email
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.core.exceptions import PermissionDenied
 
+from django.contrib.auth.tokens import default_token_generator
+from django.utils.http import urlsafe_base64_decode
+
 # Restrict the vendor from accessing the customer page
 def check_role_vendor(user):
     if user.role == 1:
@@ -123,9 +126,22 @@ def registerVendor(request):
     return render(request, 'accounts/registerVendor.html', context)
 
 
-def activate(request):
-    # Activate the user by setting the is_active status is true
-    return HttpResponse('Ok')
+def activate(request, uidb64, token):
+    # Activate the user by setting the is_active status to True
+    try:
+        uid = urlsafe_base64_decode(uidb64).decode()
+        user = User._default_manager.get(pk=uid)
+    except(TypeError, ValueError, OverflowError, User.DoesNotExist):
+        user = None
+
+    if user is not None and default_token_generator.check_token(user, token):
+        user.is_active = True
+        user.save()
+        messages.success(request, 'Congratulation! Your account is activated.')
+        return redirect('myAccount')
+    else:
+        messages.error(request, 'Invalid activation link')
+        return redirect('myAccount')
 
 
 def login(request):
