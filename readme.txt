@@ -82,6 +82,7 @@ Collect static is used for prodection website not for local computer
 	context processor user to fatch data to all templates of vendor dashboard
 		one function to pass data any templete
 		
-		Setup vendor profile
+		Setup vendor profile 
+		store the resturent data
 
 
