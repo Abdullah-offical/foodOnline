@@ -85,4 +85,6 @@ Collect static is used for prodection website not for local computer
 		Setup vendor profile 
 		store the resturent data
 
+31 create custom validation
+
 
