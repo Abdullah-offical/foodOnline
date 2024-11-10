@@ -75,4 +75,9 @@ Collect static is used for prodection website not for local computer
 
 30 forgot Password 
 
+31 Admin approve to vendor
+	send notifications to vender your account is approved
+
+30 vendor and customer dashboard setup 
+
 
