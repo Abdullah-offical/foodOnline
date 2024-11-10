@@ -81,5 +81,7 @@ Collect static is used for prodection website not for local computer
 30 vendor and customer dashboard setup
 	context processor user to fatch data to all templates of vendor dashboard
 		one function to pass data any templete
+		
+		Setup vendor profile
 
 
