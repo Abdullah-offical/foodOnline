@@ -151,7 +151,7 @@ MESSAGE_TAGS = {
 }
 
 
-GOOGLE_API_KEY = 'AIzaSyA-YlWGX2J-5Vkj9PzMcW86L05mek8aOBI'
+GOOGLE_API_KEY = config('GOOGLE_API_KEY')
 
 
 # Email configuration
