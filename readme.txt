@@ -87,4 +87,13 @@ Collect static is used for prodection website not for local computer
 
 31 create custom validation
 
+32 Implement Google Autocomplete 
+	setup google billing account
+	1 crate google console project and link to buling 
+	2 Api libiries to use libary geocodding, maps javascript api and places api 
+	3 add api key to seting and call api ki to context processor 
+	4 use come javascript code and serach to address then gave me suggestion 
+	5 demo youtube link for auto complete
+		https://www.youtube.com/watch?v=c3MjU9E9buQ
+
 
