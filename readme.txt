@@ -78,6 +78,8 @@ Collect static is used for prodection website not for local computer
 31 Admin approve to vendor
 	send notifications to vender your account is approved
 
-30 vendor and customer dashboard setup 
+30 vendor and customer dashboard setup
+	context processor user to fatch data to all templates of vendor dashboard
+		one function to pass data any templete
 
 
