@@ -96,4 +96,10 @@ Collect static is used for prodection website not for local computer
 	5 demo youtube link for auto complete
 		https://www.youtube.com/watch?v=c3MjU9E9buQ
 
+															<div class="field-holder">
+																<label>Address *</label>
+																<input type="text" name="address" value="Raza Abad Daur" required="" id="id_address" placeholder="Start typing...">
+																<small class="text-muted float-right">powered by Google</small>
+															</div>
+
 
